@@ -1,14 +1,18 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <meta charset="utf-8">
   <title>Tic-Tac-Toe</title>
   <link rel="stylesheet" type="text/css" href="styles.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  <script type="text/javascript" src="jquery-2.1.4.js"></script>
+  <script type="text/javascript" src="tic-tac.js"></script>
 </head>
+
 <body>
   <header>
-    <div class="logo">TIC - TAC - TOE</div>
+    <div class="logo">TIC - TAC - TOE <p>click once for o. twice for x.</p></div>
     <div class="nav">
       <ul>
         <li><i class="fa fa-linkedin fa-2x"></i></li>
@@ -16,28 +20,29 @@
         <li><i class="fa fa-facebook fa-2x"></i></li>
         <li><i class="fa fa-instagram fa-2x"></i></li>
       </ul>
-   </div>
- </header>
+    </div>
+  </header>
+  <div class="teller"></div>
   <div class="game">
     <table>
       <tr>
-          <td>X</td>
-          <td>O</td>
-          <td>X</td>
+         <td><div class="box box1"></div></td>
+         <td><div class="box box2"></div></td>
+         <td><div class="box box3"></div></td>
       </tr>
       <tr>
-        <td>O</td>
-        <td>X</td>
-        <td>O</td>
-      </tr>
+        <td><div class="box box4"></div></td>
+        <td><div class="box box5"></div></td>
+        <td><div class="box box6"></div></td>
       <tr>
-        <td>X</td>
-        <td>O</td>
-        <td>X</td>
+        <td><div class="box box7"></div></td>
+        <td><div class="box box8"></div></td>
+        <td><div class="box box9"></div></td>
       </tr>
     </table>
   </div>
   <footer>
   </footer>
 </body>
+
 </html>
