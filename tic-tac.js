@@ -1,0 +1,108 @@
+body {
+  background-color: rgb(0, 151, 226);
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 100vh;
+  text-shadow: 4px 4px 0 rgba(0,0,0,0.1);
+
+
+}
+
+header {
+  width: 100%;
+  color: white;
+  display: flex;
+  justify-content: flex-end;
+  font-family: futura;
+  text-shadow: 4px 4px 0 rgba(0,0,0,0.1);
+  height: 30%;
+  align-items: baseline;
+  position:absolute;
+
+
+}
+
+.logo{
+  align-self: center;
+  font-size: 68px;
+  width:100%;
+  align-content: center;
+}
+
+.logo p {
+  width: 100%;
+  font-size: 30px;
+  margin-top: 0px;
+}
+
+
+.game{
+  text-shadow: 4px 4px 0 rgba(0,0,0,0.1);
+  width:25%;
+  margin-left: 37%;
+}
+
+.section {
+  width:100%;
+  height:60%;
+  align-content: flex-end;
+  flex-wrap: wrap;
+  margin-top: 10%;
+}
+
+.teller {
+  display: flex;
+  justify-content: center;
+  align-content: flex-end;
+  width:100%;
+  height: 45px;
+  color: white;
+  font-family: futura;
+  font-size: 20px;
+}
+
+.game{
+  width:100%;
+  height:75%;
+
+}
+
+.game table tr td{
+  border: 2px solid white;
+  font-size: 40px;
+  font-family: futura;
+  color: white;
+  align-content: center;
+}
+
+
+.box{
+  display:flex;
+  width:100px;
+  height:100px;
+  align-items: flex-end;
+  font-size: 90px;
+  justify-content: center;
+  align-content: center;
+}
+
+.nav{
+  width:100%;
+  height:10%;
+  color:white;
+  text-shadow: 4px 4px 0 rgba(0,0,0,0.1);
+  align-self: flex-end;
+  margin-top:-20%;
+}
+
+.nav ul{
+  display:flex;
+  justify-content:flex-start;
+}
+
+.nav ul li {
+  display: flex;
+  list-style-type: none;
+  padding-right: 40px;
+}
