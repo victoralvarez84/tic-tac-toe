@@ -1,108 +1,107 @@
-body {
-  background-color: rgb(0, 151, 226);
-  display: flex;
-  align-items: center;
-  flex-wrap: wrap;
-  height: 100vh;
-  text-shadow: 4px 4px 0 rgba(0,0,0,0.1);
+$(document).ready(function(){
+    $('.box1').click(function(){
+        $('.box1').text('O');
+    });
+   });
 
+$(document).ready(function(){
+  $('.box1').dblclick(function(){
+    $('.box1').text('X');
+});
+});
 
-}
+$(document).ready(function(){
+    $('.box2').click(function(){
+        $('.box2').text('O');
+    });
+   });
 
-header {
-  width: 100%;
-  color: white;
-  display: flex;
-  justify-content: flex-end;
-  font-family: futura;
-  text-shadow: 4px 4px 0 rgba(0,0,0,0.1);
-  height: 30%;
-  align-items: baseline;
-  position:absolute;
+$(document).ready(function(){
+  $('.box2').dblclick(function(){
+    $('.box2').text('X');
+});
+});
 
+$(document).ready(function(){
+    $('.box3').click(function(){
+        $('.box3').text('O');
+    });
+   });
 
-}
+$(document).ready(function(){
+  $('.box3').dblclick(function(){
+    $('.box3').text('X');
+});
+});
 
-.logo{
-  align-self: center;
-  font-size: 68px;
-  width:100%;
-  align-content: center;
-}
+$(document).ready(function(){
+    $('.box4').click(function(){
+        $('.box4').text('O');
+    });
+   });
 
-.logo p {
-  width: 100%;
-  font-size: 30px;
-  margin-top: 0px;
-}
+$(document).ready(function(){
+  $('.box4').dblclick(function(){
+    $('.box4').text('X');
+});
+});
 
+$(document).ready(function(){
+    $('.box5').click(function(){
+        $('.box5').text('O');
+    });
+   });
 
-.game{
-  text-shadow: 4px 4px 0 rgba(0,0,0,0.1);
-  width:25%;
-  margin-left: 37%;
-}
+$(document).ready(function(){
+  $('.box5').dblclick(function(){
+    $('.box5').text('X');
+});
+});
 
-.section {
-  width:100%;
-  height:60%;
-  align-content: flex-end;
-  flex-wrap: wrap;
-  margin-top: 10%;
-}
+$(document).ready(function(){
+    $('.box6').click(function(){
+        $('.box6').text('O');
+    });
+   });
 
-.teller {
-  display: flex;
-  justify-content: center;
-  align-content: flex-end;
-  width:100%;
-  height: 45px;
-  color: white;
-  font-family: futura;
-  font-size: 20px;
-}
+$(document).ready(function(){
+  $('.box6').dblclick(function(){
+    $('.box6').text('X');
+});
+});
 
-.game{
-  width:100%;
-  height:75%;
+$(document).ready(function(){
+    $('.box7').click(function(){
+        $('.box7').text('O');
+    });
+   });
 
-}
+$(document).ready(function(){
+  $('.box7').dblclick(function(){
+    $('.box7').text('X');
+});
+});
 
-.game table tr td{
-  border: 2px solid white;
-  font-size: 40px;
-  font-family: futura;
-  color: white;
-  align-content: center;
-}
+$(document).ready(function(){
+    $('.box8').click(function(){
+        $('.box8').text('O');
+    });
+   });
 
+$(document).ready(function(){
+  $('.box8').dblclick(function(){
+    $('.box8').text('X');
+});
+});
 
-.box{
-  display:flex;
-  width:100px;
-  height:100px;
-  align-items: flex-end;
-  font-size: 90px;
-  justify-content: center;
-  align-content: center;
-}
+$(document).ready(function(){
+    $('.box9').click(function(){
+        $('.box9').text('O');
+    });
+   });
 
-.nav{
-  width:100%;
-  height:10%;
-  color:white;
-  text-shadow: 4px 4px 0 rgba(0,0,0,0.1);
-  align-self: flex-end;
-  margin-top:-20%;
-}
-
-.nav ul{
-  display:flex;
-  justify-content:flex-start;
-}
-
-.nav ul li {
-  display: flex;
-  list-style-type: none;
-  padding-right: 40px;
-}
+$(document).ready(function(){
+  $('.box9').dblclick(function(){
+    $('.box9').text('X');
+});
+});
