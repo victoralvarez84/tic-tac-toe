@@ -8945,100 +8945,25 @@ body {
   background-color: white;
   display: flex;
   align-items: center;
-  flex-wrap: wrap;
   height: 100vh;
 }
 .navbar {
-  background-color: #ABB3AA;
-  height: 105vh;
-  width: 32vh;
-  position: fixed;
-}
-@media (max-width: 1280px) {
-  .navbar {
-    background-color: #AAB1BA;
-    height: 105vh;
-    width: 20vw;
-    position: fixed;
-  }
-}
-@media (max-width: 768px) {
-  .navbar {
-    background-color: black;
-    height: 10vh;
-    width: 100vw;
-  }
-}
-@media (max-width: 435px) {
-  .navbar {
-    background-color: #ABB3AA;
-    height: 10vh;
-    width: 100vw;
-  }
-}
-.container {
-  background-color: #ABB3AA;
-  height: 10vh;
-}
-.navbar-toggle {
-  margin-left: 60vw;
-  margin-top: -47px;
-}
-.ironYard {
+  background-color: #141e2a;
+  height: 100vh;
+  width: 20vw;
   display: flex;
   justify-content: center;
-  width: 20vw;
-  margin-left: -15px;
-}
-@media (max-width: 435px) {
-  .ironYard {
-    margin-left: 0px;
-    height: 10vh;
-  }
-}
-.container img {
-  border: 2px solid transparent;
-  height: 20vh;
-  opacity: 1.0;
-  align-self: center;
-}
-@media (max-width: 435px) {
-  .container img {
-    height: 9vh;
-  }
-}
-#navbar {
-  width: 100vw;
-  height: 25vh;
-  background-color: #1a2937;
-}
-.navbar-nav {
-  display: flex;
-  flex-direction: column;
-  font-family: 'Roboto', sans-serif;
-  font-weight: 400;
-  font-size: 20px;
-  width: 100vw;
-  margin-left: -15px;
-  text-align: center;
 }
 @media (max-width: 768px) {
-  .navbar-nav {
-    text-align: center;
-    margin-left: 0px;
-    margin-top: 10px;
+  .navbar {
+    height: 10vh;
+    width: 100vw;
   }
 }
 @media (max-width: 435px) {
-  .navbar-nav {
-    text-align: center;
-    margin-left: 0px;
-    margin-top: 5px;
-    font-size: 10px;
-    background-color: #1a2937;
-    width: 100%;
-    font-size: 20px;
-    font-weight: 200;
+  .navbar {
+    height: 10vh;
+    width: 100vw;
   }
 }
 @media (max-width: 1440px) {
@@ -9047,10 +8972,9 @@ body {
     width: 80vw;
     display: flex;
     justify-content: center;
-    align-items: center;
     flex-direction: column;
     background-color: white;
-    margin-left: 22%;
+    margin-left: 20vw;
   }
 }
 @media (max-width: 768px) {
@@ -9117,7 +9041,12 @@ body {
   width: 100%;
   display: flex;
   justify-content: center;
-  margin-top: 8%;
+  margin-top: 0%;
+}
+@media (max-width: 768px) {
+  .title {
+    margin-top: 20%;
+  }
 }
 @media (max-width: 435px) {
   .title {
@@ -9126,7 +9055,7 @@ body {
 }
 .title h1 {
   color: #1a2937;
-  font-size: 60px;
+  font-size: 70px;
   text-align: center;
   font-family: 'Roboto', sans-serif;
   font-weight: 200;
@@ -9138,7 +9067,7 @@ body {
 }
 .game {
   width: 100%;
-  height: 80%;
+  height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -9150,14 +9079,24 @@ body {
 }
 .game table tr td {
   border: 2px solid #1a2937;
-  font-size: 40px;
+  font-size: 75px;
   font-family: futura;
   color: #1a2937;
   align-content: center;
 }
+@media (max-width: 1000px) {
+  .game table tr td {
+    font-size: 50px;
+  }
+}
+@media (max-width: 600px) {
+  .game table tr td {
+    font-size: 40px;
+  }
+}
 @media (max-width: 435px) {
   .game table tr td {
-    font-size: 20px;
+    font-size: 30px;
   }
 }
 .box {
@@ -9165,7 +9104,6 @@ body {
   width: 100px;
   height: 100px;
   align-items: flex-end;
-  font-size: 70px;
   justify-content: center;
   align-content: center;
   color: #1a2937;
@@ -9174,6 +9112,7 @@ table {
   width: 50%;
   margin: 20px auto;
   max-width: 40%;
+  z-index: 20;
 }
 @media (max-width: 435px) {
   table {
@@ -9184,7 +9123,6 @@ table {
 td {
   width: 33.33%;
   position: relative;
-  font-size: 6em;
   font-family: 'Roboto', sans-serif;
   font-weight: 200;
   border: 2px solid transparent;
@@ -9234,120 +9172,4 @@ td .content:hover {
   font-weight: 200;
   margin-top: 10px;
   font-size: 30px;
-}
-@media (max-width: 1440px) {
-  .footer {
-    background-color: #1a2937;
-    height: 10vh;
-    width: 100vw;
-    color: black;
-    font-family: 'Roboto', sans-serif;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
-}
-@media (max-width: 768px) {
-  .footer {
-    background-color: white;
-    height: 20vh;
-    width: 100vw;
-    color: white;
-    font-family: 'Roboto', sans-serif;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    position: sticky;
-    margin-left: 0%;
-  }
-}
-@media (max-width: 435px) {
-  .footer {
-    background-color: white;
-    height: 20vh;
-    width: 100vw;
-    color: white;
-    font-family: 'Roboto', sans-serif;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    position: sticky;
-  }
-}
-@media (max-width: 435px) {
-  .footer {
-    background-color: white;
-    height: 20vh;
-    width: 100vw;
-    color: white;
-    font-family: 'Roboto', sans-serif;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    position: sticky;
-  }
-}
-@media (max-width: 375px) {
-  .footer {
-    background-color: white;
-    height: 20vh;
-    width: 100vw;
-    color: white;
-    font-family: 'Roboto', sans-serif;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    position: sticky;
-  }
-}
-@media (max-width: 435px) {
-  .footer {
-    background-color: #1a2937;
-    height: 10vh;
-    width: 100vw;
-    color: white;
-    font-family: 'Roboto', sans-serif;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    position: sticky;
-  }
-}
-.email {
-  height: 100%;
-  width: 95%;
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
-}
-@media (max-width: 435px) {
-  .email {
-    width: 100%;
-    justify-content: center;
-  }
-}
-.email a {
-  color: white;
-  text-align: center;
-  font-size: 40px;
-}
-.SocialMediaLinks {
-  color: white;
-  text-decoration: none;
-  display: flex;
-  justify-content: space-around;
-  flex-direction: row;
-  height: 10%;
-  margin-top: 270px;
-  align-items: baseline;
-}
-.SocialMediaLinks ul {
-  list-style-type: none;
-  display: flex;
-  justify-content: center;
-  margin-right: 38px;
-}
-.SocialMediaLinks ul li i {
-  font-size: 20px;
-  margin: 20px;
 }
